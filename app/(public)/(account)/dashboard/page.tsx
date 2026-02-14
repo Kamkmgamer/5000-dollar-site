@@ -1,11 +1,11 @@
 'use client';
 
 import Link from 'next/link';
-import { 
-  Calendar, 
-  Gift, 
-  Star, 
-  Settings, 
+import {
+  Calendar,
+  Gift,
+  Star,
+  Settings,
   ChevronRight,
   MapPin,
   Clock,
@@ -84,7 +84,7 @@ export default function DashboardPage() {
             <div className="relative overflow-hidden rounded-2xl bg-gradient-to-br from-[var(--primary)] to-[var(--primary-800)] p-8 text-white">
               <div className="absolute -right-10 -top-10 h-40 w-40 rounded-full bg-white/10" />
               <div className="absolute -bottom-10 -left-10 h-40 w-40 rounded-full bg-white/10" />
-              
+
               <div className="relative z-10">
                 <div className="flex items-center justify-between">
                   <div>
