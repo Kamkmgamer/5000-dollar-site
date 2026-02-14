@@ -1,12 +1,12 @@
 'use client';
 
 import Link from 'next/link';
-import { 
-  Users, 
-  Wine, 
-  UtensilsCrossed, 
-  Music, 
-  Sparkles,
+import {
+  Users,
+  Wine,
+  UtensilsCrossed,
+  Music,
+  Flower2,
   Check
 } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
@@ -56,7 +56,7 @@ const eventTypes = [
     description: 'Impress clients and celebrate team wins with exceptional dining and seamless service.',
   },
   {
-    icon: Sparkles,
+    icon: Flower2,
     title: 'Weddings & Receptions',
     description: 'Make your special day unforgettable with our elegant spaces and customized menus.',
   },
@@ -86,7 +86,7 @@ export default function PrivateDiningPage() {
             Private Dining
           </h1>
           <p className="mx-auto mt-6 max-w-2xl text-lg text-[var(--neutral-300)]">
-            Host your next event in one of our exclusive private spaces. From intimate dinners 
+            Host your next event in one of our exclusive private spaces. From intimate dinners
             to grand celebrations, we create unforgettable experiences.
           </p>
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
@@ -244,13 +244,13 @@ export default function PrivateDiningPage() {
       <section className="relative overflow-hidden py-24">
         <div className="absolute inset-0 bg-gradient-to-r from-[var(--primary-900)] to-[var(--secondary-900)]" />
         <div className="absolute inset-0 bg-[url('/images/pattern.svg')] opacity-5" />
-        
+
         <div className="relative z-10 mx-auto max-w-4xl px-4 text-center sm:px-6 lg:px-8">
           <h2 className="font-[family-name:var(--font-display)] text-4xl font-bold text-white sm:text-5xl">
             Ready to Plan Your Event?
           </h2>
           <p className="mx-auto mt-6 max-w-2xl text-lg text-[var(--neutral-300)]">
-            Contact our events team to start planning your perfect private dining experience. 
+            Contact our events team to start planning your perfect private dining experience.
             We'll help you choose the right space and create a custom menu.
           </p>
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
