@@ -13,7 +13,7 @@ const featuredDishes = [
     price: 34,
     category: 'Seafood',
     popular: true,
-    image: '/images/dish_scallops_1771030971105.png',
+    image: '/Images/dish_scallops_1771030971105.png',
   },
   {
     name: 'Wagyu Beef Tenderloin',
@@ -21,7 +21,7 @@ const featuredDishes = [
     price: 58,
     category: 'Mains',
     popular: true,
-    image: '/images/dish_wagyu_1771030987953.png',
+    image: '/Images/dish_wagyu_1771030987953.png',
   },
   {
     name: 'Lobster Risotto',
@@ -29,7 +29,7 @@ const featuredDishes = [
     price: 42,
     category: 'Pasta & Risotto',
     popular: false,
-    image: '/images/dish_risotto_1771031000433.png',
+    image: '/Images/dish_risotto_1771031000433.png',
   },
   {
     name: 'Duck Confit',
@@ -37,7 +37,7 @@ const featuredDishes = [
     price: 38,
     category: 'Mains',
     popular: false,
-    image: '/images/dish_duck_1771031018820.png',
+    image: '/Images/dish_duck_1771031018820.png',
   },
 ];
 
@@ -70,7 +70,7 @@ const locationsList = [
     hours: '11am - 11pm',
     tagline: 'The Original',
     seats: 120,
-    image: '/images/hero_restaurant_1771030958566.png',
+    image: '/Images/hero_restaurant_1771030958566.png',
   },
   {
     name: 'Westside',
@@ -79,7 +79,7 @@ const locationsList = [
     hours: '11am - 10pm',
     tagline: 'Garden Retreat',
     seats: 80,
-    image: '/images/hero_restaurant_1771031040808.png',
+    image: '/Images/hero_restaurant_1771031040808.png',
   },
   {
     name: 'Harbor View',
@@ -88,7 +88,7 @@ const locationsList = [
     hours: '10am - 12am',
     tagline: 'Waterfront Dining',
     seats: 200,
-    image: '/images/hero_restaurant_1771031138685.png',
+    image: '/Images/hero_restaurant_1771031138685.png',
   },
 ];
 
@@ -123,7 +123,7 @@ export default function HomePage() {
         {/* Layered Background with Image */}
         <div className="absolute inset-0">
           <img
-            src="https://images.unsplash.com/photo-1544148103-0773bf10d330?q=80&w=3870&auto=format&fit=crop"
+            src="https://Images.unsplash.com/photo-1544148103-0773bf10d330?q=80&w=3870&auto=format&fit=crop"
             alt="Maison Bistrot Interior"
             className="h-full w-full object-cover scale-105"
           />

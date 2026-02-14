@@ -40,25 +40,25 @@ const team = [
     name: 'Julian Marc',
     role: 'Executive Chef',
     bio: 'With 20 years of experience in Michelin-starred kitchens across Paris and Lyon.',
-    image: '/images/chef_julian_marc_1771035488580.png'
+    image: '/Images/chef_julian_marc_1771035488580.png'
   },
   {
     name: 'Elena Rossi',
     role: 'Chef de Cuisine',
     bio: 'Specializing in modern Mediterranean techniques and seasonal flavor profiles.',
-    image: '/images/chef_elena_rossi_1771035503633.png'
+    image: '/Images/chef_elena_rossi_1771035503633.png'
   },
   {
     name: 'Marcus Thorne',
     role: 'General Manager',
     bio: 'Dedicated to providing an unparalleled service experience for every guest.',
-    image: '/images/manager_marcus_thorne_1771035517608.png'
+    image: '/Images/manager_marcus_thorne_1771035517608.png'
   },
   {
     name: 'Sophia Chen',
     role: 'Head Sommelier',
     bio: 'Curating an award-winning wine list featuring rare vintages and small producers.',
-    image: '/images/sommelier_sophia_chen_1771035531890.png'
+    image: '/Images/sommelier_sophia_chen_1771035531890.png'
   }
 ];
 
@@ -80,7 +80,7 @@ export default function AboutPage() {
         {/* Layered Background with Image */}
         <div className="absolute inset-0">
           <img
-            src="/images/hero_restaurant_interior_1771032142554.png"
+            src="/Images/hero_restaurant_interior_1771032142554.png"
             alt="Maison Bistrot Bar"
             className="h-full w-full object-cover scale-105"
           />
@@ -205,7 +205,7 @@ export default function AboutPage() {
             >
               <div className="aspect-[4/3] overflow-hidden rounded-2xl border border-[var(--accent-500)]/10 bg-gradient-to-br from-[var(--neutral-800)] to-[var(--neutral-900)]">
                 <img
-                  src="/images/hero_luxury_bistro_1771032197619.png"
+                  src="/Images/hero_luxury_bistro_1771032197619.png"
                   alt="Maison Bistrot Interior"
                   className="h-full w-full object-cover"
                 />

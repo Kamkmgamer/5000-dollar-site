@@ -42,7 +42,7 @@ export default function GiftCardsPage() {
     <div className="min-h-screen">
       {/* Hero */}
       <section className="relative bg-gradient-to-br from-[var(--primary-900)] to-[var(--secondary-900)] py-24">
-        <div className="absolute inset-0 bg-[url('/images/pattern.svg')] opacity-5" />
+        <div className="absolute inset-0 bg-[url('/Images/pattern.svg')] opacity-5" />
         <div className="relative z-10 mx-auto max-w-7xl px-4 text-center sm:px-6 lg:px-8">
           <span className="inline-block rounded-full border border-[var(--accent-500)]/30 bg-[var(--accent-500)]/10 px-4 py-1.5 text-sm font-medium text-[var(--accent-500)]">
             The Perfect Gift

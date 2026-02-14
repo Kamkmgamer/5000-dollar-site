@@ -20,7 +20,7 @@ const menuItems = [
     tags: [],
     allergens: ['Dairy-Free'],
     popular: true,
-    image: '/images/foie_gras_torchon_1771034713640.png',
+    image: '/Images/foie_gras_torchon_1771034713640.png',
   },
   {
     id: 2,
@@ -31,7 +31,7 @@ const menuItems = [
     tags: ['Vegetarian'],
     allergens: ['Vegetarian'],
     popular: false,
-    image: '/images/burrata_salad_1771034728757.png',
+    image: '/Images/burrata_salad_1771034728757.png',
   },
   {
     id: 3,
@@ -42,7 +42,7 @@ const menuItems = [
     tags: [],
     allergens: [],
     popular: false,
-    image: '/images/escargots_bourgogne_1771034742576.png',
+    image: '/Images/escargots_bourgogne_1771034742576.png',
   },
   // Mains
   {
@@ -54,7 +54,7 @@ const menuItems = [
     tags: [],
     allergens: [],
     popular: true,
-    image: '/images/dish_wagyu_1771030987953.png',
+    image: '/Images/dish_wagyu_1771030987953.png',
   },
   {
     id: 5,
@@ -65,7 +65,7 @@ const menuItems = [
     tags: ['Dairy-Free'],
     allergens: ['Dairy-Free'],
     popular: false,
-    image: '/images/dish_duck_1771031018820.png',
+    image: '/Images/dish_duck_1771031018820.png',
   },
   {
     id: 6,
@@ -76,7 +76,7 @@ const menuItems = [
     tags: [],
     allergens: [],
     popular: false,
-    image: '/images/coq_au_vin_1771034757251.png',
+    image: '/Images/coq_au_vin_1771034757251.png',
   },
   // Seafood
   {
@@ -88,7 +88,7 @@ const menuItems = [
     tags: ['Gluten-Free'],
     allergens: ['Gluten-Free'],
     popular: true,
-    image: '/images/dish_scallops_1771030971105.png',
+    image: '/Images/dish_scallops_1771030971105.png',
   },
   {
     id: 8,
@@ -99,7 +99,7 @@ const menuItems = [
     tags: ['Gluten-Free', 'Dairy-Free'],
     allergens: ['Gluten-Free', 'Dairy-Free'],
     popular: false,
-    image: '/images/grilled_branzino_1771034772521.png',
+    image: '/Images/grilled_branzino_1771034772521.png',
   },
   {
     id: 9,
@@ -110,7 +110,7 @@ const menuItems = [
     tags: [],
     allergens: [],
     popular: false,
-    image: '/images/dish_risotto_1771031000433.png',
+    image: '/Images/dish_risotto_1771031000433.png',
   },
   // Pasta
   {
@@ -122,7 +122,7 @@ const menuItems = [
     tags: ['Vegetarian'],
     allergens: ['Vegetarian'],
     popular: true,
-    image: '/images/truffle_pappardelle_1771034789207.png',
+    image: '/Images/truffle_pappardelle_1771034789207.png',
   },
   {
     id: 11,
@@ -133,7 +133,7 @@ const menuItems = [
     tags: ['Dairy-Free'],
     allergens: ['Dairy-Free'],
     popular: false,
-    image: '/images/seafood_linguine_1771034803271.png',
+    image: '/Images/seafood_linguine_1771034803271.png',
   },
   // Salads
   {
@@ -145,7 +145,7 @@ const menuItems = [
     tags: ['Gluten-Free', 'Dairy-Free'],
     allergens: ['Gluten-Free', 'Dairy-Free'],
     popular: false,
-    image: '/images/nicoise_salad_1771034817031.png',
+    image: '/Images/nicoise_salad_1771034817031.png',
   },
   // Desserts
   {
@@ -157,7 +157,7 @@ const menuItems = [
     tags: ['Vegetarian', 'Gluten-Free'],
     allergens: ['Vegetarian', 'Gluten-Free'],
     popular: true,
-    image: '/images/creme_brulee_1771034833755.png',
+    image: '/Images/creme_brulee_1771034833755.png',
   },
   {
     id: 14,
@@ -168,7 +168,7 @@ const menuItems = [
     tags: ['Vegetarian'],
     allergens: ['Vegetarian'],
     popular: true,
-    image: '/images/chocolate_souffle_final_1771035158447.png',
+    image: '/Images/chocolate_souffle_final_1771035158447.png',
   },
 ];
 
@@ -198,7 +198,7 @@ export default function MenuPage() {
       <section className="relative overflow-hidden py-32 pt-40">
         <div className="absolute inset-0">
           <img
-            src="/images/hero_luxury_bistro_1771032197619.png"
+            src="/Images/hero_luxury_bistro_1771032197619.png"
             alt="Maison Bistrot Bar"
             className="h-full w-full object-cover scale-105"
           />

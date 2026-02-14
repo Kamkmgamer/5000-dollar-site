@@ -21,7 +21,7 @@ const events = [
     date: 'February 14, 2026',
     time: '5:00 PM - 11:00 PM',
     location: 'All Locations',
-    image: '/images/events/valentines.jpg',
+    image: '/Images/events/valentines.jpg',
     description: 'Celebrate love with our special 5-course tasting menu featuring aphrodisiac ingredients and champagne pairings.',
     price: '$150 per person',
     available: true,
@@ -34,7 +34,7 @@ const events = [
     date: 'February 20, 2026',
     time: '7:00 PM - 9:30 PM',
     location: 'Westside',
-    image: '/images/events/wine.jpg',
+    image: '/Images/events/wine.jpg',
     description: 'Join our sommelier Antoine for an intimate evening exploring wines from Bordeaux. Includes 6 tastings and artisanal cheese pairings.',
     price: '$85 per person',
     available: true,
@@ -47,7 +47,7 @@ const events = [
     date: 'Every Sunday',
     time: '10:00 AM - 2:00 PM',
     location: 'Harbor View',
-    image: '/images/events/jazz.jpg',
+    image: '/Images/events/jazz.jpg',
     description: 'Enjoy our signature brunch menu accompanied by live jazz performances from local artists. Perfect for a relaxing Sunday morning.',
     price: '$45 per person',
     available: true,
@@ -60,7 +60,7 @@ const events = [
     date: 'March 5, 2026',
     time: '7:00 PM - 10:00 PM',
     location: 'Downtown',
-    image: '/images/events/chef.jpg',
+    image: '/Images/events/chef.jpg',
     description: 'An exclusive 8-course tasting menu prepared by Chef Jean-Pierre himself. Limited to 12 guests at our private chef\'s table.',
     price: '$250 per person',
     available: true,
@@ -73,7 +73,7 @@ const events = [
     date: 'March 15, 2026',
     time: '2:00 PM - 5:00 PM',
     location: 'Downtown',
-    image: '/images/events/cooking.jpg',
+    image: '/Images/events/cooking.jpg',
     description: 'Learn the art of French pastry making from Executive Sous Chef Marie. Take home your creations and a recipe booklet.',
     price: '$120 per person',
     available: true,
@@ -86,7 +86,7 @@ const events = [
     date: 'March 21, 2026',
     time: '6:00 PM - 9:00 PM',
     location: 'All Locations',
-    image: '/images/events/spring.jpg',
+    image: '/Images/events/spring.jpg',
     description: 'Be the first to experience our new spring menu. Includes tastings of all new dishes, cocktails, and live entertainment.',
     price: '$95 per person',
     available: true,
@@ -108,7 +108,7 @@ export default function EventsPage() {
     <div className="min-h-screen">
       {/* Hero */}
       <section className="relative bg-gradient-to-br from-[var(--primary-900)] to-[var(--secondary-900)] py-24">
-        <div className="absolute inset-0 bg-[url('/images/pattern.svg')] opacity-5" />
+        <div className="absolute inset-0 bg-[url('/Images/pattern.svg')] opacity-5" />
         <div className="relative z-10 mx-auto max-w-7xl px-4 text-center sm:px-6 lg:px-8">
           <span className="inline-block rounded-full border border-[var(--accent-500)]/30 bg-[var(--accent-500)]/10 px-4 py-1.5 text-sm font-medium text-[var(--accent-500)]">
             What's Happening

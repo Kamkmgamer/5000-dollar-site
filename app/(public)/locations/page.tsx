@@ -29,7 +29,7 @@ const locations = [
       { icon: Users, label: 'Private Dining' },
     ],
     description: 'Our flagship location in the heart of Manhattan, featuring an elegant main dining room and an exclusive rooftop terrace with stunning city views.',
-    image: '/images/hero_restaurant_1771030958566.png',
+    image: '/Images/hero_restaurant_1771030958566.png',
   },
   {
     id: 'westside',
@@ -54,7 +54,7 @@ const locations = [
       { icon: Users, label: 'Private Events' },
     ],
     description: 'A cozy neighborhood gem with a charming garden patio and an intimate wine bar. Perfect for romantic dinners and small gatherings.',
-    image: '/images/hero_restaurant_1771031040808.png',
+    image: '/Images/hero_restaurant_1771031040808.png',
   },
   {
     id: 'harbor-view',
@@ -79,7 +79,7 @@ const locations = [
       { icon: Users, label: 'Event Space' },
     ],
     description: 'Spectacular waterfront dining with panoramic harbor views. Features dockside seating, weekend brunch, and a lively beach bar.',
-    image: '/images/hero_restaurant_1771031138685.png',
+    image: '/Images/hero_restaurant_1771031138685.png',
   },
 ];
 
@@ -91,7 +91,7 @@ export default function LocationsPage() {
         {/* Layered Background with Image */}
         <div className="absolute inset-0">
           <img
-            src="/images/hero_restaurant_1771031157896.png"
+            src="/Images/hero_restaurant_1771031157896.png"
             alt="Maison Bistrot Locations"
             className="h-full w-full object-cover scale-105"
           />

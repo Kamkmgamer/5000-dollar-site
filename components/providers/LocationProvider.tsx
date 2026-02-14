@@ -53,7 +53,7 @@ const defaultLocations: Location[] = [
     },
     capacity: 120,
     features: ['Outdoor Seating', 'Private Dining', 'Full Bar', 'Valet Parking'],
-    images: ['/images/locations/downtown-1.jpg', '/images/locations/downtown-2.jpg'],
+    images: ['/Images/locations/downtown-1.jpg', '/Images/locations/downtown-2.jpg'],
     description: 'Our flagship location in the heart of the city, featuring an elegant dining room and rooftop terrace.',
   },
   {
@@ -80,7 +80,7 @@ const defaultLocations: Location[] = [
     },
     capacity: 80,
     features: ['Garden Patio', 'Wine Cellar', 'Private Events'],
-    images: ['/images/locations/westside-1.jpg', '/images/locations/westside-2.jpg'],
+    images: ['/Images/locations/westside-1.jpg', '/Images/locations/westside-2.jpg'],
     description: 'A cozy neighborhood gem with a charming garden patio and an extensive wine selection.',
   },
   {
@@ -107,7 +107,7 @@ const defaultLocations: Location[] = [
     },
     capacity: 200,
     features: ['Waterfront Views', 'Live Music', 'Event Space', 'Dock Dining'],
-    images: ['/images/locations/harbor-1.jpg', '/images/locations/harbor-2.jpg'],
+    images: ['/Images/locations/harbor-1.jpg', '/Images/locations/harbor-2.jpg'],
     description: 'Spectacular waterfront dining with panoramic harbor views and fresh seafood specialties.',
   },
 ];
